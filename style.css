@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+/* navbar start */
+.nav__container {
+    background-color: antiquewhite;
+    height: 60px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 50%;
+}
+
+.navbar__menu {
+    display: flex;
+}
+.navbar__menu li {
+    margin: 10px;
+}
+/* navbar end */
+/* Бургер-меню */
+.menu {
+    display: none;
+  }
+
+/* Information start */
+.container__information {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 50px;
+    padding: 50px;
+    border-bottom: black solid 2px;
+}
+.container__left-surname {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.photo {
+    width: 25%;
+    border-bottom: black solid 2px;
+    margin-left: 500px;
+}
+.container__left-surname h1 {
+    font-size: 45px;
+}
+.container__left-surname p {
+    font-size: 25px;
+    margin-top: 20px;
+}
+/* Information end */
+
+/* section-1-2-3-4-5 start */
+.container__section-1, .container__section-2, .container__section-3, .container__section-4, .container__section-5  {
+    display: flex;
+    margin: 20px;
+    font-size: 25px;
+}
+
+/* Footer start */
+.footer__contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    font-weight: 400;
+    background-color: aqua;
+    height: 50px;
+    margin-top: 50px;
+
+}
+.footer__contacts img {
+    width: 20px;
+    height: 20px;
+}
+.footer__contacts span {    
+    font-size: 25px;
+}
+
+
+@media all and (max-width: 1100px) {
+    .navbar__right {
+      display: none;
+    }
+    /* Бургер-меню start */
+    .menu {
+      display: flex;
+    }
+}
+@media all and (max-width: 830) {
+    .container__information {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    /* .photo {
+        margin-left: 0px;
+    } */
+}
+
+
+
+
+@media all and (max-width: 700px) {
+    /* background-color: ; */
+}
+
+
+
+
